@@ -10,15 +10,15 @@
     <TextView
         android:text="TextView01"
         android:layout_height="wrap_content"
-        android:textSize="20dip"
+        android:textSize="20sp"
         android:layout_width="fill_parent"
-        android:id="@+id/ItemTitle11"
+        android:id="@+id/Title"
         />
     <TextView
         android:text="TextView02"
         android:layout_height="wrap_content"
         android:layout_width="fill_parent"
-        android:layout_below="@+id/ItemTitle11"
-        android:id="@+id/ItemText11"
+        android:layout_below="@+id/Title"
+        android:id="@+id/Text"
         />
 </RelativeLayout>
